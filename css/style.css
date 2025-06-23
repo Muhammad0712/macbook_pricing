@@ -359,11 +359,13 @@
     width: 86%;
     height: 690px;
   }
-  .frame-16 img {
+  .frame-16 img:first-child {
     width: 100%;
     height: 100%;
   }
-
+  .frame-16 img:last-child {
+    display: none;
+  }
   .group-1428 {
     width: 90%;
     height: 745px;
